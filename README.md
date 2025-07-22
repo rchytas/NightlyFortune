@@ -1,1 +1,3 @@
 # NightlyFortune
+
+## Cursor Generated
