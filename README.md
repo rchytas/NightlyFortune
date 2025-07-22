@@ -2,4 +2,4 @@
 
 ## Cursor Generated
 
-![Cursor is Cool](NightlyFortune.png)
+![Cursor is Cool](FortuneGlow.png)
