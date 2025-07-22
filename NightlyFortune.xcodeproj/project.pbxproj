@@ -14,6 +14,8 @@
 		19E11BA62E2FC9C000344005 /* NightlyFortuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E11BA52E2FC9C000344005 /* NightlyFortuneTests.swift */; };
 		19E11BB02E2FC9C000344005 /* NightlyFortuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E11BAF2E2FC9C000344005 /* NightlyFortuneUITests.swift */; };
 		19E11BB22E2FC9C000344005 /* NightlyFortuneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E11BB12E2FC9C000344005 /* NightlyFortuneUITestsLaunchTests.swift */; };
+		19E11BBF2E2FCA0400344005 /* FortuneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E11BBE2E2FCA0400344005 /* FortuneManager.swift */; };
+		19E11BC12E2FCA2500344005 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E11BC02E2FCA2500344005 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		19E11BAB2E2FC9C000344005 /* NightlyFortuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightlyFortuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E11BAF2E2FC9C000344005 /* NightlyFortuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightlyFortuneUITests.swift; sourceTree = "<group>"; };
 		19E11BB12E2FC9C000344005 /* NightlyFortuneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightlyFortuneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19E11BBE2E2FCA0400344005 /* FortuneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneManager.swift; sourceTree = "<group>"; };
+		19E11BC02E2FCA2500344005 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				19E11B962E2FC9BB00344005 /* ContentView.swift */,
 				19E11B982E2FC9BF00344005 /* Assets.xcassets */,
 				19E11B9A2E2FC9BF00344005 /* Preview Content */,
+				19E11BBE2E2FCA0400344005 /* FortuneManager.swift */,
+				19E11BC02E2FCA2500344005 /* NotificationManager.swift */,
 			);
 			path = NightlyFortune;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				19E11B972E2FC9BB00344005 /* ContentView.swift in Sources */,
 				19E11B952E2FC9BB00344005 /* NightlyFortuneApp.swift in Sources */,
+				19E11BC12E2FCA2500344005 /* NotificationManager.swift in Sources */,
+				19E11BBF2E2FCA0400344005 /* FortuneManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

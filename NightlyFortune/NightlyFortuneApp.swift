@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct NightlyFortuneApp: App {
+    init() {
+        NotificationManager.shared.requestAuthorization()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
